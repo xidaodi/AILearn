@@ -1,5 +1,9 @@
-# Here record leaning path of AI
+Here record leaning path of AI.
 
-# refer the https://Sakura-gh.github.io/ML-notes 
+first, read the book at https://nndl.github.io/ for entrance reading.
 
-# refer the https://piperliu.blog.csdn.net/article/details/107455837 
+second, watch the video at https://www.bilibili.com/video/BV1JE411g7XF?t=253 
+
+  referring to the https://Sakura-gh.github.io/ML-notes 
+
+  referring to the https://piperliu.blog.csdn.net/article/details/107455837 
