@@ -1,0 +1,6 @@
+ruchan:eeeee
+kelwan:sssss
+tongw:aaaaa
+song:tttt
+hello:hello
+hi:hi
