@@ -286,7 +286,8 @@
 登录练习结束
 '''
 
-# import  pickle  #序列化和反序列化成二进制文件
+
+# import  pickle  #序列化 dump() 和反序列 load() 化成二进制文件
 # # var="I love You"
 # # res=pickle.dumps(var)
 # # res0=pickle.loads(res)
@@ -297,6 +298,61 @@
 #     #pickle.dump(vars,fp)
 #     res=pickle.load(fp)
 #     print(res)
+
+
+# import json
+# var={'name': '张三', 'age': 20, 'sex': 'm'}
+# var=(1,2,3)
+# var="123"
+# res=json.dumps(var)
+# print(res,type(res))
+
+# import math
+# res=math.pow(2,3)
+# print(res)
+
+
+# import os
+# os.system("dir")
+# res=os.path.abspath("./2.txt")
+# print(res)
+
+
+
+'''
+#高级文件操作模块
+'''
+# import  shutil
+# # shutil.copy("1.txt",r"C:\Users\ruchan\Desktop\1.txt")  #复制文件
+# shutil.move("1.txt",r"C:\Users\ruchan\Desktop\test\2.txt")
+
+
+'''
+压缩模块
+'''
+# import zipfile
+# import os
+# print(os.getcwd())
+# # with zipfile.ZipFile("spam.zip","w") as myzip:
+# #     myzip.write('2.txt')
+# #     myzip.write("集合.png")
+#
+# with zipfile.ZipFile("spam.zip","r") as myzip:
+#     myzip.extractall("./spam/")
+
+
+
+import time
+res=time.time()
+# print(time.ctime())
+print(time.ctime(res))
+print(time.localtime())
+res=time.strftime("%y-%m-%d %H:%M:%S")
+print(res)
+
+import  calendar
+
+
 
 
 
