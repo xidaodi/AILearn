@@ -342,15 +342,46 @@
 
 
 
-import time
-res=time.time()
-# print(time.ctime())
-print(time.ctime(res))
-print(time.localtime())
-res=time.strftime("%y-%m-%d %H:%M:%S")
-print(res)
+# import time
+# res=time.time()
+# # print(time.ctime())
+# print(time.ctime(res))
+# print(time.localtime())
+# res=time.strftime("%y-%m-%d %H:%M:%S")
+# print(res)
 
 import  calendar
+
+
+import re
+varstr="Iloveyou123 &loveu521ove2love234567"
+# reg="love"
+# res=re.findall(reg,varstr)
+# res=re.match(reg,varstr)
+# res=re.finditer(reg,varstr)
+# res=re.sub(reg,"like",varstr)
+# res=re.split(" ",varstr)
+
+# print(res.group())
+# res=re.search(reg,varstr)
+
+# reg="\w" #一个字母，数字或者下划线
+# reg="\w\d{2}"
+#
+# res=re.findall(reg,varstr)
+# # res=re.search(reg,varstr)
+# print(res)
+#
+# phone_num="15910573458"
+# reg="^1\d{10}$"
+# res=re.findall(reg,phone_num)
+# print(res)
+#
+# var="iLoveYOu"
+# reg="[a-z]{2,5}"
+# res=re.findall(reg,var,re.I)
+# print(res)
+
 
 
 

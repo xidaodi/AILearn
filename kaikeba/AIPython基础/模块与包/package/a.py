@@ -1,0 +1,6 @@
+
+
+
+def funca():
+    print('funca')
+
