@@ -1,0 +1,6 @@
+2021-02-18 15:55:52  ERROR 
+ Traceback (most recent call last):
+  File "C:/Users/ruchan/PycharmProjects/AILearn/kaikeba/AIPython»ù´¡/main.py", line 402, in <module>
+    int('bb')
+ValueError: invalid literal for int() with base 10: 'bb'
+
