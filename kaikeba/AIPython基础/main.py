@@ -406,5 +406,41 @@ varstr="Iloveyou123 &loveu521ove2love234567"
 #
 # print('abcdef')
 
+'''
+为什么要用装饰器decorator https://www.bilibili.com/video/BV11s411V7Dt?from=search&seid=1928930556910434338 
+'''
+import time
 
+def display_time(func):
+    def wrapper(*args):
+        t1=time.time()
+        result=func(*args)
+        t2=time.time()
+        print(t2-t1)
+        return result
+    return  wrapper
+
+def is_prime(num):
+    if num<2:
+        return False
+    elif num==2:
+        return  True
+    else:
+        for i in range(2,num):
+            if num % i ==0:
+                return False
+
+        return True
+
+@display_time
+def prime_nums(maxnum):
+    count=0
+    for i in range(2,maxnum):
+        if is_prime(i):
+            print(i)
+            count+=1
+    return count
+
+count=prime_nums(5000)
+print(count)
 
